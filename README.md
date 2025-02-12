@@ -21,6 +21,7 @@ Fluxo do sistema geral de solicitações e alocação de projetos da CPFL. Novas
 - [x] 🟢 Gerenciamento de Acessos → Resolvido  
 - [x] 🟢 Dashboard Power BI → Referência errada  
 - [x] 🟢 Saldo Disponível → Valor errado (Depois de Recusar)
+- [ ] 🔴 Adicionar Filtro de Descrição e Centro de custo (Abertura de ODI)
 
 ### 🔃 POWER AUTOMATE
 - [x] 🟢 Arrumar decodificação do código
