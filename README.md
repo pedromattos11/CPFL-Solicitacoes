@@ -26,7 +26,8 @@ Fluxo do sistema geral de solicitações e alocação de projetos da CPFL. Novas
 ### 🔃 POWER AUTOMATE
 - [x] 🟢 Arrumar decodificação do código
 - [x] 🟢 Retirar aprovação 2 → SAP
-- [ ] 🟠 Retirar Aprovação Controladoria - [RODANDO TESTES] <br> <br>
+- [X] 🟢 Retirar Aprovação Controladoria <br> <br>
+- [ ] 🟠 Retirar SAP Condicional (2a)
 
 # 🔜 FASE 3 → Fev/2025
 Para  a fase 3, a ideia é desenvolver um sistema com 4 telas que identifica automaticamente qual é a permissão do usuário e direciona ele para a tela correta. Existem 4 níveis de permissão. <br> <br>
