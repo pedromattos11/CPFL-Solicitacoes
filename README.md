@@ -30,7 +30,7 @@ Fluxo do sistema geral de solicitações e alocação de projetos da CPFL. Novas
 - [x] 🟢 Retirar aprovação 2 → SAP
 - [X] 🟢 Retirar Aprovação Controladoria <br> <br>
 - [x] 🟢 Retirar SAP Condicional (2a)
-- [X] 🟢 Retirar Aprovação Diretor (2)
+- [X] 🟢 Retirar Aprovação Diretor (Caso Realocação)
 
 # 🔜 FASE 3 → Fev/2025
 Para  a fase 3, a ideia é desenvolver um sistema com 4 telas que identifica automaticamente qual é a permissão do usuário e direciona ele para a tela correta. Existem 4 níveis de permissão e acesso. <br> <br>
@@ -105,6 +105,7 @@ Basicamente a mesma tela do supervisor, porém, com foco em campos de justificat
 - Arquivo de Compromissado
 - Consolidado das Justificativas
 - Consolidado da ME
+- Botão de Período de Ajustes
 
 ## 🛠️ FERRAMENTAS UTILIZADAS
 🖥️ - Power Apps → Sistema <br>
