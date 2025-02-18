@@ -21,9 +21,11 @@ Fluxo do sistema geral de solicitações e alocação de projetos da CPFL. Novas
 - [x] 🟢 Gerenciamento de Acessos → Resolvido  
 - [x] 🟢 Dashboard Power BI → Referência errada  
 - [x] 🟢 Saldo Disponível → Valor errado (Depois de Recusar)
-- [ ] 🟠 Solicitação de Encerramento Errada → Visão Gestão
-- [ ] 🟠 Adicionar Filtro de Descrição
-- [ ] 🟠 Adicionar Filtro de Centro de Custo
+- [ ] 🔴 Solicitação de Encerramento Errada → Visão Gestão
+- [ ] 🔴 Adicionar Filtro de Descrição → Nova Solicitação
+- [ ] 🔴 Adicionar Filtro de Centro de Custo → Nova Solicitação
+- [ ] 🔴 Erro Linha Orçamentária → Email 13.02
+- [ ] 🔴 Bug dos Centavos (v2) → 2 Solicitações
 
 ### 🔃 POWER AUTOMATE
 - [x] 🟢 Arrumar decodificação do código
@@ -31,6 +33,7 @@ Fluxo do sistema geral de solicitações e alocação de projetos da CPFL. Novas
 - [X] 🟢 Retirar Aprovação Controladoria <br> <br>
 - [x] 🟢 Retirar SAP Condicional (2a)
 - [X] 🟢 Retirar Aprovação Diretor (Caso Realocação)
+- [ ] 🔴 Aprovação Tati → Ajuste 
 
 # 🔜 FASE 3 → Fev/2025
 Para  a fase 3, a ideia é desenvolver um sistema com 4 telas que identifica automaticamente qual é a permissão do usuário e direciona ele para a tela correta. Existem 4 níveis de permissão e acesso. <br> <br>
