@@ -65,6 +65,12 @@
 
 ---
 
+### SharePoint
+- ✅ Base de dados fato novo
+- ✅ Coluna empresas
+- ✅ Coluna Planta
+
+
 ### **Quando o usuário clicar no botão _Fato Novo_**
 - ✅ **Criar botão Fato Novo**
 - ✅ **Configurar a propriedade `Items` da tablist_Principal**
@@ -118,3 +124,8 @@
 
 - **SOLICITAÇÃO:**  
   - ❌ Criar uma tabela com a distribuição mensal **ORIGINAL** do orçamento do **Número ODI**
+ 
+ - **AJUSTE DE FATOS NOVOS:**
+ - Gerenciar as colunas de empresa e de planta por entidade do supervisor → Campo choice → SharePoint
+ - Entidade → Empresa → Planta
+ - Estética → tablist 
