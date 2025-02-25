@@ -60,7 +60,7 @@
 - ✅ **Criar tablist CAPEX - Sobressalente** → `"tablist_Categoria"`
 
 ### **Galeria**
-- ❌ **Ajustar o container** → `"container_Colunas"`
+- ✅ **Ajustar o container** → `"container_Colunas"`
 - ✅ **Criar Máscara invisível** para a linha inteira → `mascara_Galeria`
 
 ---
@@ -85,7 +85,7 @@
 ---
 
 ### **Quando o usuário clicar em um item do tipo _ODI_ na galeria**
-- ❌ **Mudar a propriedade `Items` da "tablist_Principal" para:**  
+- ✅ **Mudar a propriedade `Items` da "tablist_Principal" para:**  
   `"ME REVISÃO, COMPROMISSADO, PRÉVIA, REALIZADO e SOLICITAÇÃO"`
 
 #### Dentro da tablist, ações para cada opção:
@@ -93,7 +93,7 @@
   - ❌ Criar uma tabela com a distribuição mensal do orçamento do **Número ODI**
 
 - **COMPROMISSADO:**  
-  - ❌ Criar uma galeria com as seguintes colunas:  
+  - ✅ Criar uma galeria com as seguintes colunas:  
     **Descrição do fornecedor, Número do documento, Item, Valor, Quantidade, Material, Denominação**  
     *(Base: Modelo Compromissado.xlsx)*
 
@@ -109,23 +109,27 @@
 
 - **SOLICITAÇÃO:**  
   - ❌ Criar uma galeria com as seguintes colunas:  
-    **Mês, TP DOC, DT LCTC, CL Custo, Denom Classe Custo, Doc Compra, Material, Denominação, Texto breve material, QTD Entr, UML, Valor/MR, Descr Fornecedor**  
+    **Coluna: ID da Solicitação 
+Colunas: Distribuição mensal da solicitação **  
     *(Base: Modelo Realizado.xlsx)*
 
 ---
 
 ### **Quando o usuário clicar em um item do tipo _SALDO_ na galeria**
-- ❌ **Mudar a propriedade `Items` da "tablist_Principal" para:**  
+- ✅ **Mudar a propriedade `Items` da "tablist_Principal" para:**  
   `"ME REVISÃO e SOLICITAÇÃO"`
 
-#### Dentro da tablist para Saldo:
-- **ME REVISÃO:**  
-  - ❌ Criar uma tabela com a distribuição mensal **REAL** do orçamento do **ID Budget** da linha orçamentária
+#### Dentro da tablist para Saldo 
+- **ME REVISÃO:**  → Editável
+  - ✅ Criar uma tabela com a distribuição mensal **REAL** do orçamento do **ID Budget** da linha orçamentária
 
-- **SOLICITAÇÃO:**  
-  - ❌ Criar uma tabela com a distribuição mensal **ORIGINAL** do orçamento do **Número ODI**
+- **SOLICITAÇÃO:**  🟠 _SOMENTE VISUALIZAÇÃO_
+  - ✅ Criar uma tabela com a distribuição mensal **ORIGINAL** do orçamento do **Número ODI**
  
- - **AJUSTE DE FATOS NOVOS:**
+ - ** 📞 _24/02/2025_ AJUSTE DE FATOS NOVOS:**
  - Gerenciar as colunas de empresa e de planta por entidade do supervisor → Campo choice → SharePoint
  - Entidade → Empresa → Planta
- - Estética → tablist 
+ - Estética → tablist
+
+   **TIPO SALDO → EDITÁVEL NA OPÇÃO DE ME REVISÃO**
+   **DENOMINAÇÃO → galeria_ODI_Compromissado**
