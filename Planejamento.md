@@ -90,7 +90,7 @@
 
 #### Dentro da tablist, ações para cada opção:
 - **ME REVISÃO:**  
-  - ❌ Criar uma tabela com a distribuição mensal do orçamento do **Número ODI**
+  - ✅ Criar uma tabela com a distribuição mensal do orçamento do **Número ODI**
 
 - **COMPROMISSADO:**  
   - ✅ Criar uma galeria com as seguintes colunas:  
